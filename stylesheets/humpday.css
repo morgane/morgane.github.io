@@ -2,8 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 html {
-    background-image: url("seanpaul.jpg");
-    background-repeat: repeat;
+  background-image: url("seanpaul.jpg");
+  background-repeat: repeat;
+  min-height: 100%;
 }
 
 body {
@@ -11,9 +12,11 @@ body {
   color: #000;
   font: 14px/1.5 Inconsolata, Helvetica, Arial, sans-serif;
   font-weight: 300;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 50px;
+  position: fixed;
+  width: 100%;
 }
 
 h1 {
