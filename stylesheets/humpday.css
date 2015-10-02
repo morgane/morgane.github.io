@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 50px;
   position: fixed;
-  width: 100%;
+  text-align: right;
 }
 
 h1 {
@@ -26,36 +26,20 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 4vw;
   line-height: 1.5;
   margin: 0 0 20px;
 }
 
 a {
   color: #E83393; /* dark pink */
-  font-size: 30px;
+  font-size: 4vw;
   font-weight: 400;
   text-decoration: none;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 860px;
-}
-
-header {
-  float: left;
-}
-
 section {
-  float: right;
   padding: 50px 0 50px 0;
-  width: 500px;
-}
-
-img {
-  height: 300px;
-  margin: 0 0 20px;
 }
 
 #archive {
@@ -72,7 +56,6 @@ img {
   }
   
   header, section {
-    float: none;
     position: static;
     width: auto;
   }
