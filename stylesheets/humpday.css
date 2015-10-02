@@ -19,6 +19,12 @@ body {
   text-align: right;
 }
 
+footer {
+  position: fixed;
+  bottom: 5vh;
+  text-align: left;
+}
+
 h1 {
   color: #222; /* super dark grey */
   font: 40px/1.1 Inconsolata, Helvetica, Arial, sans-serif;
