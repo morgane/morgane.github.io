@@ -1,28 +1,139 @@
-a {
+h1 {
   color: #222;
   font-family: "Bitter", sans-serif;
+  font-size: 48px;
+  margin: 30px 0 0 0;
   text-decoration: none;
 }
 
-a:hover {
-  color: #E83393;
+h2 {
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0 0 30px 0;
+  text-decoration: none;
 }
 
 p {
-  color: #222;
   font-family: "Bitter", sans-serif;
-  font-size: 4vw;
-  margin: 10px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-section {
-  height: auto;
-  max-width: 100%;
-  width: 95%;
-  text-align: right;
+section#main a, section#main a:hover, section#main a:visited {
+  color: #EEE;
+}
+
+section#postscript a, section#postscript a:hover, section#postscript a:visited {
+  color: #222;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+header {
+  text-align: center;
+}
+
+header.skew:before {
+  border-bottom-width: 50px;
+  border-color: transparent;
+  border-right-color: #91A8D2;
+  border-right-width: 3000px;
+  border-style: solid;
+  border-top-width: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -50px;
+  width: 0;
+}
+
+section#main {
+  background-color: #91A8D2;
+  color: #EEE;
+  position: relative;
+}
+
+section#main.skew:before {
+  border-bottom-width: 120px;
+  border-color: transparent;
+  border-right-color: #FFF;
+  border-right-width: 3000px;
+  border-style: solid;
+  border-top-width: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+section#postscript {
+  background-color: #F6CAC9;
+  color: #222;
+  padding: 30px 0;
+  position: relative;
+}
+
+section#postscript p {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+section#postscript.skew:before {
+  border-bottom-width: 120px;
+  border-color: transparent;
+  border-right-color: #91A8D2;
+  border-right-width: 3000px;
+  border-style: solid;
+  border-top-width: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
 }
 
 html {
   width: 100%;
   min-height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 380px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
