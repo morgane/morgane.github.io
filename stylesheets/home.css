@@ -107,6 +107,7 @@ section#postscript.skew:before {
 html {
   width: 100%;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
