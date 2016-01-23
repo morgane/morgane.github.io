@@ -73,7 +73,7 @@ section#main.skew:before {
   height: 3px;
   left: -15px;
   position: absolute;
-  top: 0;
+  top: -2px;
   width: 0;
 }
 
@@ -101,7 +101,7 @@ section#postscript.skew:before {
   height: 3px;
   left: -15px;
   position: absolute;
-  top: 0;
+  top: -2px;
   width: 0;
 }
 
