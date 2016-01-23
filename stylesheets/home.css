@@ -70,7 +70,7 @@ section#main.skew:before {
   border-style: solid;
   border-top-width: 0;
   content: "";
-  height: 1px;
+  height: 3px;
   left: -15px;
   position: absolute;
   top: 0;
@@ -98,7 +98,7 @@ section#postscript.skew:before {
   border-style: solid;
   border-top-width: 0;
   content: "";
-  height: 1px;
+  height: 3px;
   left: -15px;
   position: absolute;
   top: 0;
