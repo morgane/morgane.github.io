@@ -37,6 +37,7 @@ section#postscript a, section#postscript a:hover, section#postscript a:visited {
 }
 
 header {
+  background-color: #EEE;
   text-align: center;
 }
 
@@ -64,7 +65,7 @@ section#main {
 section#main.skew:before {
   border-bottom-width: 120px;
   border-color: transparent;
-  border-right-color: #FFF;
+  border-right-color: #EEE;
   border-right-width: 3000px;
   border-style: solid;
   border-top-width: 0;
@@ -105,9 +106,10 @@ section#postscript.skew:before {
 }
 
 html {
-  width: 100%;
+  background-color: #F6CAC9;
   min-height: 100%;
   overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -136,5 +138,11 @@ body {
 
   p {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 420px;
   }
 }
