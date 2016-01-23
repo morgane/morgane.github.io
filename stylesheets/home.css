@@ -70,8 +70,8 @@ section#main.skew:before {
   border-style: solid;
   border-top-width: 0;
   content: "";
-  height: 0;
-  left: 0;
+  height: 1px;
+  left: -15px;
   position: absolute;
   top: 0;
   width: 0;
@@ -98,8 +98,8 @@ section#postscript.skew:before {
   border-style: solid;
   border-top-width: 0;
   content: "";
-  height: 0;
-  left: 0;
+  height: 1px;
+  left: -15px;
   position: absolute;
   top: 0;
   width: 0;
@@ -141,8 +141,8 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
   .container {
-    width: 420px;
+    margin: 0 20px;
   }
-}
+}*/
