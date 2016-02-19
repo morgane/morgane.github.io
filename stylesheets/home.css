@@ -166,6 +166,10 @@ section#work.skew:before {
 }
 
 @media (max-width: 480px) {
+  img {
+    display: none;
+  }
+
   .container {
     width: 380px;
   }
@@ -178,7 +182,7 @@ section#work.skew:before {
     font-size: 24px;
   }
 
-  p {
+  p, .bodyText {
     font-size: 18px;
   }
 }
