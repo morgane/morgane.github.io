@@ -194,6 +194,11 @@ img.workSample {
   .container {
     width: 480px;
   }
+
+  img, img.workSample {
+    max-height: 400px;
+    width: 400px;
+  }
 }
 
 @media (max-width: 480px) {
