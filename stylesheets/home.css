@@ -126,6 +126,17 @@ body {
 
 /* WORK ---------------------------------------------------- */
 
+.backButton {
+  padding-left: 30px;
+  position: fixed;
+  z-index: 666;
+}
+
+.backButton a, .backButton a:hover, .backButton a:visited {
+  color: #222;
+  font-size: 16px;
+}
+
 .bodyText {
   color: #222;
   font-family: "Open Sans", sans-serif;
@@ -135,10 +146,23 @@ body {
   text-decoration: none;
 }
 
+.captionText {
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0 0 30px 0;
+  text-decoration: none;
+}
+
 #work {
   background-color: #EEE;
   padding: 30px 0;
   position: relative;
+}
+
+header#pinkBody {
+  background-color: #F6CAC9;
 }
 
 section#work.skew:before {
@@ -154,6 +178,13 @@ section#work.skew:before {
   position: absolute;
   top: -2px;
   width: 0;
+}
+
+img.workSample {
+  margin: 0;
+  padding-bottom: 30px;
+  width: 600px;
+  max-height: 600px;
 }
 
 
