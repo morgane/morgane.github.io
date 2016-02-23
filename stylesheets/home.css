@@ -182,9 +182,9 @@ section#work.skew:before {
 
 img.workSample {
   margin: 0;
+  max-height: 600px;
   padding-bottom: 30px;
   width: 600px;
-  max-height: 600px;
 }
 
 
@@ -197,8 +197,9 @@ img.workSample {
 }
 
 @media (max-width: 480px) {
-  img {
-    display: none;
+  img, img.workSample {
+    max-height: 300px;
+    width: 300px;
   }
 
   .container {
@@ -214,6 +215,6 @@ img.workSample {
   }
 
   p, .bodyText {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
