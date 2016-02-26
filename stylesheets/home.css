@@ -183,7 +183,7 @@ section#work.skew:before {
 img.workSample {
   margin: 0;
   max-height: 600px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   width: 600px;
 }
 
