@@ -38,14 +38,12 @@ section#interim a, section#interim a:hover, section#interim a:visited, section#w
 
 img {
   display: block;
-  margin: 0 auto;
   max-height: 150px;
   max-width: 600px;
 }
 
 header {
   background-color: #EEE;
-  text-align: center;
 }
 
 header.skew:before {
@@ -199,12 +197,22 @@ img.workSample {
     max-height: 400px;
     width: 400px;
   }
+
+  img.companyLogo {
+    max-height: 100px;
+    width: auto;
+  }
 }
 
 @media (max-width: 480px) {
   img, img.workSample {
     max-height: 300px;
     width: 300px;
+  }
+
+  img.companyLogo {
+    max-height: 80px;
+    width: auto;
   }
 
   .container {
