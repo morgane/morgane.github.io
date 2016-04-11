@@ -88,4 +88,11 @@ p.emoji {
 }
 
 @media (max-width: 480px) {
+  p {
+    font-size: 50px;
+  }
+
+  li {
+    font-size: 25px;
+  }
 }
