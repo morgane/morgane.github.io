@@ -5,7 +5,8 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 0 auto;}
+  margin: 0 auto;
+}
 
 h1 {
   color: #FFF;
@@ -34,22 +35,21 @@ p {
   font-size: 24px;
 }
 
-section a, section a:hover, section a:visited {
+section, section a, section a:hover, section a:visited {
   color: #EEE;
-}
-
-section {
-  color: #EEE;
-  position: relative;
 }
 
 
 /* MEDIA QUERIES ------------------------------------------- */
 
 @media (max-width: 768px) {
-
+  h1 {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 480px) {
-
+  header, section {
+    margin: 0 10px;
+  }
 }
