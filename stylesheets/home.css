@@ -27,6 +27,10 @@ html {
   width: 100%;
 }
 
+#mobile {
+  display: none;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
@@ -48,8 +52,22 @@ section, section a, section a:hover, section a:visited {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   header, section {
     margin: 0 10px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #mobile {
+    display: block;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  #web {
+    display: none;
   }
 }
