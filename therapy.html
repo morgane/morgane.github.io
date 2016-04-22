@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Design Salon</title>
+
+    <link rel="stylesheet" href="stylesheets/therapy.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Lato:400,100,900,100italic,400italic,900italic' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapProp = {
+          center:new google.maps.LatLng(37.7577,-122.4376),
+          zoom:12,
+          scrollwheel: false,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <h1>Therapy</h1>
+        <h2>a place to talk, cry, and laugh freely about creative work</h2>
+      </section>
+
+      <section>
+        <h2>Who</h2>
+        <div class="who">
+          <div class="whoPhoto">
+            <img src="photos/who1.png" alt="Morgane Santos">
+          </div>
+          <p class="bold">Morgane Santos</p>
+          <p class="light">Morgane is a designer, amateur video game developer, cat mom, and thot leader. She'll be speaking about financial responsibility, how to open up an IRA, and how to not die poor.</p>
+        </div>
+
+        <div class="who">
+          <div class="whoPhoto">
+            <img src="photos/who2.png" alt="Annie Wang">
+          </div>
+          <p class="bold">Annie Wang</p>
+          <p class="light">Annie is a designer, fashion icon, cat mom, and dream girl. She'll be speaking about what her art project, Selfish Everyday, and what it's taught her about keeping up with the Kardashians.</p>
+        </div>
+
+        <div class="who">
+          <div class="whoPhoto">
+            <img src="photos/who3.png" alt="Justin Bieber">
+          </div>
+          <p class="bold">Justin Bieber</p>
+          <p class="light">Justin is love, Justin is life. He won't be speaking, we just needed to add a third example here.</p>
+        </div>
+      </section>
+
+       <section>
+        <h2>What</h2>
+        <div class="what">
+          <p class="light">Join us for a series of open-ended and non-topical talks from designers who may not have the coolest Dribbble accounts, but they do have some good stories.</p>
+        </div>
+      </section>
+
+       <section>
+        <h2>Where</h2>
+        <p>Secret Location in San Francisco, CA</p>
+        <div class="where">
+          <div id="googleMap" style="width:600px;height:300px;"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>When</h2>
+        <p>Tuesday February 23, 2016 from 6:00—8:00PM</p>
+      </section>
+
+       <section>
+        <h2>Why</h2>
+        <div class="why">
+          <p class="light">We aren't razzle-dazzled by Dribbble posts. We can't afford the hottest design conferences. We like design but we also like making video games, reading about fruit bats, thinking about Justin Bieber, doing Krav Maga, and living our truths.</p>
+          <p class="light">We just wanted to do our own dang thing, you know?</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>How</h2>
+        <p>Reserve your spot on Eventbrite (tickets are free!)</p>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <div class="faq">
+          <p>How much are tickets?</p>
+          <p class="light answer">Free!</p>
+          <p>What if I got tickets but I can't go?</p>
+          <p class="light answer">Just cancel your order on Eventbrite so someone on the waitlist can go instead :)</p>
+          <p>Is this only for designers?</p>
+          <p class="light answer">Nope. While some topics will be more relevant to designers, anyone is welcome to join.</p>
+          <p>Will there be food?</p>
+          <p class="light answer">No, so bring snacks!</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Credits</h2>
+        <div class="credits">
+          <p class="light">Hosted by <a href="https://twitter.com/annieyilingwang" target="blank_">Annie Wang</a> and <a href="https://twitter.com/morgan_e_" target="blank_">Morgane Santos</a></p>
+          <p class="light">Website built by <a href="https://twitter.com/morgan_e_" target="blank_">Morgane Santos</a> (see the <a href="https://github.com/morgane/design_salon" target="blank_">source code</a>)</p>
+        </div>
+      </section>
+  </body>
+</html>

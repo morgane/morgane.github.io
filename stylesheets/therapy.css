@@ -1,0 +1,118 @@
+/* CODE GUIDELINES ========================================================== */
+
+/* 
+
+1. Keep styles split into two groups: tag (a, h1, img) and class (.who, .why)
+1.1. Within the class styles, keep the sections ordered as they appear on the
+     site (header, who, what, when...)
+2. Keep everything in alphabetical order
+3. When in doubt, remember that none of this matters anyway
+
+*/
+
+/* TAG STYLES =============================================================== */
+
+a {
+  color: #472A93;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #472A93;
+}
+
+body {
+  background-attachment: fixed;
+  background: #FFECE4;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+h1 {
+  color: #472A93;
+  font-family: "Cooper Black", sans-serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #472A93;
+  font-family: "Courier", sans-serif;
+  font-weight: lighter;
+  margin: 0 0 15px 0;
+}
+
+p {
+  color: #472A93;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+p.bold {
+  margin: 10px auto;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+section {
+  margin: 60px auto;
+  text-align: center;
+}
+
+/* CLASS STYLES ============================================================= */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* HEADER ------------------------------------------------------------------- */
+
+/* WHO ---------------------------------------------------------------------- */
+
+.who {
+  min-height: 200px;
+  padding-bottom: 30px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.whoPhoto {
+  float: left;
+  padding-right: 30px;
+}
+
+/* WHAT --------------------------------------------------------------------- */
+
+/* WHERE -------------------------------------------------------------------- */
+
+.where {
+  background-color: white;
+  display: inline-block;
+  height: 300px;
+  margin-top: 30px;
+  width: 600px;
+}
+
+/* WHEN --------------------------------------------------------------------- */
+
+/* WHY ---------------------------------------------------------------------- */
+
+/* HOW ---------------------------------------------------------------------- */
+
+/* FAQ ---------------------------------------------------------------------- */
+
+.answer {
+  padding-bottom: 30px;
+}
+
+.faq {
+  text-align: left;
+}
+
+/* CREDITS ------------------------------------------------------------------ */
