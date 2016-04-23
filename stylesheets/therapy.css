@@ -47,7 +47,7 @@ h2 {
 
 p {
   color: #472A93;
-  font-family: "Lato", sans-serif;
+  font-family: "Courier", sans-serif;
   margin: 0;
 }
 
@@ -60,52 +60,11 @@ p.light {
 }
 
 section {
-  margin: 60px auto;
+  margin: 0 auto 50px auto;
   text-align: center;
 }
 
 /* CLASS STYLES ============================================================= */
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-/* HEADER ------------------------------------------------------------------- */
-
-/* WHO ---------------------------------------------------------------------- */
-
-.who {
-  min-height: 200px;
-  padding-bottom: 30px;
-  text-align: left;
-  vertical-align: top;
-}
-
-.whoPhoto {
-  float: left;
-  padding-right: 30px;
-}
-
-/* WHAT --------------------------------------------------------------------- */
-
-/* WHERE -------------------------------------------------------------------- */
-
-.where {
-  background-color: white;
-  display: inline-block;
-  height: 300px;
-  margin-top: 30px;
-  width: 600px;
-}
-
-/* WHEN --------------------------------------------------------------------- */
-
-/* WHY ---------------------------------------------------------------------- */
-
-/* HOW ---------------------------------------------------------------------- */
-
-/* FAQ ---------------------------------------------------------------------- */
 
 .answer {
   padding-bottom: 30px;
@@ -115,4 +74,40 @@ section {
   text-align: left;
 }
 
-/* CREDITS ------------------------------------------------------------------ */
+.how {
+  border: 2px solid #472A93;
+  background: #FFECE4;
+  left: 50px;
+  padding: 20px;
+  position: fixed;
+  top: 50px;
+}
+
+.speechBubbles {
+  background-color: #472A93;
+  height: 200px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.who {
+  border: 2px solid #472A93;
+  min-height: 200px;
+  padding-bottom: 30px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.whoPhoto {
+  background-color: #472A93;
+  float: left;
+  height: 200px;
+  margin: 5px 30px 0 5px;
+  width: 200px;
+}
+
+.wrapper {
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 600px;
+}

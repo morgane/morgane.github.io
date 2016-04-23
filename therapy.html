@@ -9,99 +9,50 @@
     <script src="https://use.typekit.net/crk5bla.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapProp = {
-          center:new google.maps.LatLng(37.7577,-122.4376),
-          zoom:12,
-          scrollwheel: false,
-          mapTypeId:google.maps.MapTypeId.ROADMAP
-        };
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
   </head>
   <body>
     <div class="wrapper">
       <section>
+        <div class="speechBubbles"></div>
         <h1>Therapy</h1>
         <h2>a place to talk, cry, and laugh freely about creative work</h2>
+        <h2>may ?? 2016, 8pm–9pm</h2>
+        <h2>somewhere, san francisco</h2>
       </section>
 
       <section>
-        <h2>Who</h2>
-        <div class="who">
-          <div class="whoPhoto">
-            <img src="photos/who1.png" alt="Morgane Santos">
-          </div>
-          <p class="bold">Morgane Santos</p>
-          <p class="light">Morgane is a designer, amateur video game developer, cat mom, and thot leader. She'll be speaking about financial responsibility, how to open up an IRA, and how to not die poor.</p>
-        </div>
-
-        <div class="who">
-          <div class="whoPhoto">
-            <img src="photos/who2.png" alt="Annie Wang">
-          </div>
-          <p class="bold">Annie Wang</p>
-          <p class="light">Annie is a designer, fashion icon, cat mom, and dream girl. She'll be speaking about what her art project, Selfish Everyday, and what it's taught her about keeping up with the Kardashians.</p>
-        </div>
-
-        <div class="who">
-          <div class="whoPhoto">
-            <img src="photos/who3.png" alt="Justin Bieber">
-          </div>
-          <p class="bold">Justin Bieber</p>
-          <p class="light">Justin is love, Justin is life. He won't be speaking, we just needed to add a third example here.</p>
-        </div>
-      </section>
-
-       <section>
-        <h2>What</h2>
         <div class="what">
-          <p class="light">Join us for a series of open-ended and non-topical talks from designers who may not have the coolest Dribbble accounts, but they do have some good stories.</p>
-        </div>
-      </section>
-
-       <section>
-        <h2>Where</h2>
-        <p>Secret Location in San Francisco, CA</p>
-        <div class="where">
-          <div id="googleMap" style="width:600px;height:300px;"></div>
+          <p>Join us for an evening of intimate discussions about design, art, FOMO, feelings, money, and all the things no one ever told you about doing creative work. We're not a conference, we're not a meetup, we're not a networking event. We're Therapy. Leave your cellphones and business cards at the door.</p>
         </div>
       </section>
 
       <section>
-        <h2>When</h2>
-        <p>Tuesday February 23, 2016 from 6:00—8:00PM</p>
-      </section>
-
-       <section>
-        <h2>Why</h2>
-        <div class="why">
-          <p class="light">We aren't razzle-dazzled by Dribbble posts. We can't afford the hottest design conferences. We like design but we also like making video games, reading about fruit bats, thinking about Justin Bieber, doing Krav Maga, and living our truths.</p>
-          <p class="light">We just wanted to do our own dang thing, you know?</p>
+        <div class="who">
+          <div class="whoPhoto">
+            <!-- <img src="photos/who2.png" alt="Annie Wang"> -->
+          </div>
+          <p><a href="https://twitter.com/annieyilingwang" target="blank_">Annie Wang</a></p>
+          <p>Annie is a designer, fashion icon, cat mom, and dream girl. She'll be moderating a conversation about FOMO and loneliness in the design world.</p>
         </div>
       </section>
 
-      <section>
-        <h2>How</h2>
-        <p>Reserve your spot on Eventbrite (tickets are free!)</p>
+      <section class="how">
+        <p>GET TICKETS</p>
       </section>
 
       <section>
         <h2>FAQ</h2>
         <div class="faq">
-          <p>How much are tickets?</p>
-          <p class="light answer">Free!</p>
-          <p>What if I got tickets but I can't go?</p>
-          <p class="light answer">Just cancel your order on Eventbrite so someone on the waitlist can go instead :)</p>
-          <p>Is this only for designers?</p>
-          <p class="light answer">Nope. While some topics will be more relevant to designers, anyone is welcome to join.</p>
-          <p>Will there be food?</p>
-          <p class="light answer">No, so bring snacks!</p>
+          <p>Q: How much are tickets?</p>
+          <p class="light answer">A: Free!</p>
+          <p>Q: What if I got tickets but I can't go?</p>
+          <p class="light answer">A: Just cancel your order on Eventbrite so someone on the waitlist can go instead :)</p>
+          <p>Q: Is this only for designers?</p>
+          <p class="light answer">A: Nope. While some topics will be more relevant to designers, anyone is welcome to join.</p>
+          <p>Q: Will there be food?</p>
+          <p class="light answer">A: No, so bring snacks!</p>
+          <p>Q: Is this a safe space?</p>
+          <p class="light answer">A: YES. We want everyone to feel comfortable. No harrassment or abusive behavior will be tolerated, period. If anyone's ruining the night for you, let a moderator know. We'll take care of it.</p>
         </div>
       </section>
 
