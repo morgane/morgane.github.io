@@ -106,14 +106,14 @@ table {
   text-align: center;
 }
 
-.RSVPlink {
+.bigLink {
   display: block;
   height: 100%;
   padding: 20px;
   text-decoration: none;
 }
 
-.RSVPlink:hover {
+.bigLink:hover {
   background-color: #472A93;
   color: #FFECE4; 
   display: block;
