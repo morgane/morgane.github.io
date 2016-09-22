@@ -1,11 +1,5 @@
 body {
   background: #121212;
-/*  background: -webkit-linear-gradient(-45deg, #FF00C1, #FFC784,  #FF00C1, #7D00FF, #FF00C1, #FFC784);
-  background: -o-linear-gradient(-45deg, #FF00C1,  #FFC784, #FF00C1, #7D00FF, #FF00C1, #FFC784);
-  background: -moz-linear-gradient(-45deg, #FF00C1,  #FFC784, #FF00C1, #7D00FF, #FF00C1, #FFC784);
-  background: linear-gradient(-45deg, #FF00C1, #FFC784, #FF00C1, #7D00FF, #FF00C1, #FFC784);
-  background-size: 600% 600%;
-  -webkit-animation: pulse 40s linear infinite normal;*/
 }
 
 @-webkit-keyframes pulse {
@@ -32,10 +26,6 @@ html {
   width: 100%;
 }
 
-#mobile {
-  display: none;
-}
-
 p {
   font-family: 'Podkova', sans-serif;
   text-decoration: none;
@@ -44,6 +34,15 @@ p {
 
 section, section a, section a:hover, section a:visited {
   color: #EEE;
+}
+
+.fantom {
+  margin-top: 100px;
+}
+
+.fantom p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
 }
 
 
