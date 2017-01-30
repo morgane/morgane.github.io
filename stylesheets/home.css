@@ -45,6 +45,12 @@ section, section a, section a:hover, section a:visited {
   font-size: 20px;
 }
 
+.fantom .play-link a {
+  color: #00FFAE;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 
 /* MEDIA QUERIES ------------------------------------------- */
 
