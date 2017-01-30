@@ -51,6 +51,10 @@ section, section a, section a:hover, section a:visited {
   text-decoration: none;
 }
 
+.fantom .play-link {
+  padding: 50px 0;
+}
+
 
 /* MEDIA QUERIES ------------------------------------------- */
 
