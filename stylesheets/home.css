@@ -32,6 +32,10 @@ p {
   font-size: 80px;
 }
 
+.no_bamboozle {
+  text-decoration: none;
+}
+
 section, section a, section a:hover, section a:visited {
   color: #EEE;
 }
