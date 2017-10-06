@@ -51,16 +51,23 @@ p {
 }
 
 .tenebraImages {
-  position: relative;
+  display: none;
 }
 
-.tenebra-1 {
-  position: absolute;
-}
+@media (min-width: 600px)  {
+  .tenebraImages {
+    display: unset;
+    position: relative;
+  }
 
-.tenebra-2 {
-  margin-bottom: 50px;
-  max-width: 500px;
-  position: absolute;
-  top: 1600px;
+  .tenebra-1 {
+    position: absolute;
+  }
+
+  .tenebra-2 {
+    margin-bottom: 50px;
+    max-width: 500px;
+    position: absolute;
+    top: 1600px;
+  }
 }
