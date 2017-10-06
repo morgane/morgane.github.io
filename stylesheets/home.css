@@ -59,11 +59,6 @@ section, section a, section a:hover, section a:visited {
   padding: 50px 0;
 }
 
-/*.fantom-title {
-  max-width: 300px;
-}*/
-
-
 /* MEDIA QUERIES ------------------------------------------- */
 
 @media (max-width: 768px) {
