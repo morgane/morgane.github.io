@@ -1,0 +1,65 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 4em;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h2.bio {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 0.8em;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+p, ul {
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+blockquote {
+  border-left: 2px solid gray;
+  font-weight: 300;
+  padding-left: 20px;
+  margin: 40px;
+}
+
+hr {
+  margin: 50px auto;
+}
+
+mark {
+  background-color: #ccdfff;
+}
+
+.image {
+  background-size: contain;
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.image p {
+  color: gray;
+  font-size: 0.8em;
+  text-align: center;
+}
