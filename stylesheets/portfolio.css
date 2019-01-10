@@ -27,7 +27,7 @@ h3 {
   text-transform: lowercase;
 }
 
-p, ul {
+p, ul, ol {
   font-weight: 300;
   line-height: 1.6em;
 }
@@ -62,4 +62,13 @@ mark {
   color: gray;
   font-size: 0.8em;
   text-align: center;
+}
+
+.portfolio section {
+  padding: 20px;
+  margin: 40px 0;
+}
+
+.portfolio .highlight {
+  background-color: #ccdfff;
 }
