@@ -28,7 +28,7 @@
       <p>
         <mark><a href="https://www.mapbox.com/" target="_blank">Mapbox</a>
         creates a variety of tools to allow developers to build with live location data.</mark> 
-        The Unity team created an SDK letting people make their own 3D, interactive maps.
+        The Unity team created an SDK letting people make their own interactive 3D maps.
         Over time, user research revealed that people wanted more and more customization
         power, and that they also found our UI confusing. We wanted to give users better ways
         to build exactly what they had in mind while also cleaning up our designs to
@@ -36,7 +36,7 @@
       </p>
 
       <p>
-        <mark>I led a small team of designers/developers to create the point of interest (POI) and building replacements features.</mark> Together we conducted user interviews, created mockups, prototyped and tested them, and eventually built them into the SDK. Afterwards I wrote tutorials and documentations for these new features. As team lead I was also responsible for communicating with other team and making sure we were always on track.
+        <mark>I led a small team of designers/developers to create the point of interest (POI) and building replacements features.</mark> Together we conducted user interviews, created mockups, prototyped and tested them, and eventually built them into the SDK. Afterwards I wrote tutorials and documentations for these new features. As team lead I was also responsible for communicating with other teams and making sure we were always on track.
       </p>
 
       <h2>Understanding the problem space</h2>
@@ -58,6 +58,20 @@
         <li><mark>Highlight points of interest (POIs) on the map</mark></li>
         <li><mark>Replace default buildings with custom meshes</mark></li>
       </ol>
+
+      <h2>Why POIs and buildings?</h2>
+      <p>
+        Before this project, the Mapbox Unity SDK still required people to do a fair amount of scripting to do any customization. It was possible to create a map with terrain and imagery (satellite imagery or map styles) with basic white rectangles extruded from building footprints to simulate real buildings. While this is fine for prototyping and proof-of-concepts, this quickly became a problem for anyone wanting to make a higher fidelity experience.
+      </p>
+      <p>
+        Specifically, people wanted to be able to highlight POIs for gameplay. Maybe you want to create an AR experience that triggers an event every time you're near a restaurant. Maybe you want to make a 3D map that labels specific museums in downtown San Franciso.
+      </p>
+      <p>
+        As for buildings, people were rightfully tired of the basic white rectangles. It was incredibly difficult to style these rectangles, let alone change the meshes altogether. We specifically tackled mesh replacement but others on the team also focused on making it easy to add custom materials to buildings.
+      </p>
+      <p>
+        Without POI highlighting or building replacement, the Mapbox Unity SDK was only useful for quick prototyping. <mark>By focusing on these user needs, the Mapbox Unity SDK would allow people to create their 3D maps from start to finish in one place.</mark>
+      </p>
 
 
       <h2>Early flows and mockups</h2>
@@ -102,6 +116,16 @@
         We turned these mockups into clickable prototypes and tested them with in-person interviews. After refining our designs, we were ready to add them to the SDK. The backend engineers had been working on making these features possible, so we just had to code the UI to expose it to users. Once this was done, the whole team tested these features extensively to find bugs or areas we overlooked. 
       </p>
 
+      <div class="image">
+        <img class="unity-img" src="portfolio-images/unity-8.png" alt="Annotated UI design">
+        <p>Default UI for adding labels over POIs</p>
+      </div>
+
+      <div class="image">
+        <img class="unity-img" src="portfolio-images/unity-9.png" alt="Annotated UI design">
+        <p>Example scene showcasing building replacement</p>
+      </div>
+
       <p>
         Once the features were launched, I worked on the tutorials and documentation to help people get started and close the loop. 
       </p>
@@ -119,6 +143,9 @@
       <h2>In conclusion</h2>
       <p>These features made a huge impact for our users. By starting with so much user research, we were able to design for real needs and not what we assumed was needed. <mark>A heavy emphasis on iterative design allowed us to refine the complex UI into something that was understandable even to first-time Unity or Mapbox users.</mark> Whereas previously people needed a solid understanding of mapping terms, now anyone could jump in quickly without needing to be a mapping expert.</p>
       </section>
+
+
+      <section class="back-button"><p><a href="portfolio.html">← Back to portfolio</a></p></section>
     </div>
 
   </body>
