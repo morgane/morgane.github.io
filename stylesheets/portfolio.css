@@ -1,14 +1,15 @@
 body {
+  background-color: #ffe6e6;
   font-family: 'Merriweather', serif;
   margin: 50px auto;
-  max-width: 700px;
+  max-width: 750px;
   padding: 20px;
 }
 
 h1 {
   color: black;
   font-size: 4em;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: #ffe6e6; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
@@ -44,7 +45,8 @@ hr {
 }
 
 mark {
-  background-color: #ccdfff;
+  background-color: #ffe6e6;
+  font-weight: bold;
 }
 
 .image {
@@ -69,8 +71,7 @@ mark {
 }
 
 .portfolio section {
-  padding: 20px;
-  margin: 40px 0;
+  margin-bottom: 120px;
 }
 
 .portfolio .highlight {
@@ -79,4 +80,9 @@ mark {
 
 .back-button {
   margin-top: 100px;
+}
+
+.emoji-sep {
+  padding: 60px 0;
+  text-align: center;
 }
