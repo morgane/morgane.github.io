@@ -1,23 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>0. What's all this then?</title>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/stylesheets/bloggywoggy.css">
-  </head>
-  <body>
-  	<nav>
-  
-    <a href="/" >home</a>
-  
-    <a href="/blog" >blog</a>
-  
-</nav>
-    <h1>0. What's all this then?</h1>
-<p>28 April 2020</p>
-
-<p>Hello and welcome to my blog (?)</p>
+I"x<p>Hello and welcome to my blog (?)</p>
 
 <p>I’m writing because, well, why are any of us doing anything right now? Coronavirus
 has changed everything. It’s all we can think about. It’s a banal thing to say right
@@ -52,6 +33,4 @@ or maybe you won’t at all. So yeah kind of a meaningless statement there. Well
 about it sucked and honestly, computers are a prison. That’s just my personal take on it
 but it’s true. So on that note if anything about the CSS is wonky or something, do not even bother
 to tell me, I DON’T care and I WON’T be fixing it.</p>
-
-  </body>
-</html>
+:ET

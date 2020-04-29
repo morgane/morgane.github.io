@@ -29,6 +29,10 @@ h2, h3, li, p {
   font-family: 'Georgia', serif;
 }
 
+.sub-link {
+  font-style: italic;
+}
+
 .blog-posts {
   list-style-type: none;
   padding: 0;
