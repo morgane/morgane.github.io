@@ -1,0 +1,74 @@
+body {
+  background: #121212;
+}
+
+@-webkit-keyframes pulse {
+  0% {background-position: 0% 0%}
+  100% {background-position: 95% 95%}
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Podkova', serif;
+  font-size: 80px;
+  margin: 30px 0 0 0;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+p {
+  font-family: 'Podkova', sans-serif;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.no_bamboozle {
+  text-decoration: none;
+}
+
+section, section a, section a:hover, section a:visited {
+  color: #EEE;
+}
+
+.fantom {
+  margin-top: 100px;
+}
+
+.fantom p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.fantom .play-link a {
+  color: #00FFAE;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.fantom .play-link {
+  padding: 50px 0;
+}
+
+/* MEDIA QUERIES ------------------------------------------- */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  header, section {
+    margin: 0 10px;
+  }
+}
