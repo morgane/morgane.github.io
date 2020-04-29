@@ -1,0 +1,17 @@
+---
+layout: default
+title: morgy's diary
+---
+<h1>morgy's diary</h1>
+
+<p class="sub-link"><a href="https://buttondown.email/lil_morgy" target="_blank">click here</a> to sign up
+for email updates! I don't really know what an RSS feed is! This seems easier!</p>
+
+<ul class="blog-posts">
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%-d %B %Y" }} – {{ post.summary }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,73 @@
+html {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#838bfc+0,fcbdf8+100 */
+  background: #838bfc; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #838bfc 0%, #FFC1E9 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #838bfc 0%,#FFC1E9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at bottom right, #838bfc 0%,#FFC1E9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 100%;
+  background-attachment: fixed;
+}
+
+body {
+  color: #64387C;
+  height: 100%;
+  margin: 50px;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-family: 'Astloch', monospace;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Podkova', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+a {
+  color: #64387C;
+}
+
+a:hover {
+  color: #64387C;
+}
+
+p {
+  font-family: 'Podkova', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.left {
+  float: left;
+}
+
+.tenebraImages {
+  display: none;
+}
+
+@media only screen and (min-width: 500px)  {
+  .tenebraImages {
+    display: unset;
+    position: relative;
+  }
+
+  .tenebra-1 {
+    position: absolute;
+  }
+
+  .tenebra-2 {
+    margin-bottom: 50px;
+    max-width: 500px;
+    position: absolute;
+    top: 1600px;
+  }
+}

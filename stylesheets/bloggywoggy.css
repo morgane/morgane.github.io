@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(246,199,219);
+  background: linear-gradient(36deg, rgba(246,199,219,1) 0%, rgba(165,197,236,1) 100%);
+  padding: 50px;
+  width: 600px;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+}
+
+h2, h3, li, p {
+  font-family: 'Georgia', serif;
+}
+
+.sub-link {
+  font-style: italic;
+}
+
+.blog-posts {
+  list-style-type: none;
+  padding: 0;
+}
