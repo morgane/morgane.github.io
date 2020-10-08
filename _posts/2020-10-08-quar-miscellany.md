@@ -4,10 +4,10 @@ title: 7. Quar Miscellany
 summary: "A few recurring thoughts about this whole quardeal."
 ---
 
-I.
+I.\
 People are definitely going to develop quarantine-inspired festishes, right? The taboo, the fear, the shame... there's already very low effort quarantine pornos out there, but I think over time we'll get into some pretty weird stuff, and maybe that will be interesting. Think of the terror you would feel being approached by someone with unwashed hands and no mask, but how much you crave touch, too. Yes, think about it. Anyway here's to kink.
 
-II.
+II.\
 When someone's not wearing a mask but they're surrounded by people who *are* wearing masks, don't they feel weird? Doesn't that human instinct to fit in with a group kick in? I think about when I did the finals week naked run in college: when I got to where everyone was meeting, most people were already naked, and I felt incredibly weird being clothed because... everyone else was naked! I was the odd one out! But then again, I didn't think of being clothed as some kind of brave political stance whereas the anti-maskers have really convinced themselves they're revolutionaries. Yet again duped by ideology.
 
 III.
